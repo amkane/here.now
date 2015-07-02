@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreData
+import Parse
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,7 +18,41 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+         Parse.setApplicationId("hVWmyBqK3rrtx4w2Xvg78XiVDVHyjcthtKJHmlpE", clientKey: "uCnTD718PJlTnCWBW2OjHqkhpryIF2Zvy560qQMs")
+        
+//        UIUserNotificationType userNotificationTypes = (UIUserNotificationTypeAlert |
+//            UIUserNotificationTypeBadge |
+//            UIUserNotificationTypeSound);
+//        let userNotificationTypes = (UIUserNotificationType.Alert | UIUserNotificationType.Badge | UIUserNotificationType.Sound)
+//        
+////        UIUserNotificationSettings *settings = [UIUserNotificationSettings settingsForTypes:userNotificationTypes
+////            categories:nil];
+//        let settings = UIUserNotificationSettings(forTypes: userNotificationTypes, categories: nil)
+//        
+////        [application registerUserNotificationSettings:settings];
+//        application.registerUserNotificationSettings(settings)
+//        
+////        [application registerForRemoteNotifications];
+//        application.registerForRemoteNotifications()
+        
+    application.registerForRemoteNotificationTypes((UIRemoteNotificationType.Badge | UIRemoteNotificationType.Sound | UIRemoteNotificationType.Alert))
         return true
+    }
+    
+    
+    
+    func application(application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: NSData) {
+//        PFInstallation *currentInstallation = [PFInstallation currentInstallation];
+        let currentInstallation = PFInstallation.currentInstallation()
+//        [currentInstallation setDeviceTokenFromData:deviceToken];
+        currentInstallation.setDeviceTokenFromData(deviceToken)
+//        currentInstallation.channels = @[ @"global" ];
+       //        [currentInstallation saveInBackground];
+        currentInstallation.saveInBackgroundWithBlock(nil)
+    }
+    
+    func application(application: UIApplication, didReceiveRemoteNotification userInfo: [NSObject : AnyObject]) {
+        PFPush.handlePush(userInfo)
     }
 
     func applicationWillResignActive(application: UIApplication) {

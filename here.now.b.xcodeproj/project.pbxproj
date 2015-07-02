@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		397807AC1B38F95700FB0584 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 397807AB1B38F95700FB0584 /* Security.framework */; };
+		397807AE1B38F95D00FB0584 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 397807AD1B38F95D00FB0584 /* StoreKit.framework */; };
+		397807B01B38F96600FB0584 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 397807AF1B38F96600FB0584 /* SystemConfiguration.framework */; };
+		397807B21B38F97300FB0584 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 397807B11B38F97300FB0584 /* libz.dylib */; };
+		397807B41B38F97F00FB0584 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 397807B31B38F97F00FB0584 /* libsqlite3.dylib */; };
+		39D66E311B3B85EF00475F1E /* BebasNeue Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39CFFF471B3B56F200851858 /* BebasNeue Light.ttf */; };
+		39DA6ADE1B38F82900235886 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39DA6ADD1B38F82900235886 /* Parse.framework */; };
+		39DA6AE01B38F83C00235886 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39DA6ADF1B38F83C00235886 /* Bolts.framework */; };
+		39DA6AE21B38F8DE00235886 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39DA6AE11B38F8DE00235886 /* AudioToolbox.framework */; };
+		39DA6AE41B38F8E800235886 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39DA6AE31B38F8E800235886 /* CFNetwork.framework */; };
+		39DA6AE61B38F8F700235886 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39DA6AE51B38F8F700235886 /* CoreGraphics.framework */; };
+		39DA6AE81B38F8FD00235886 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39DA6AE71B38F8FD00235886 /* CoreLocation.framework */; };
+		39DA6AEA1B38F90900235886 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39DA6AE91B38F90900235886 /* MobileCoreServices.framework */; };
+		39DA6AEC1B38F91200235886 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39DA6AEB1B38F91200235886 /* QuartzCore.framework */; };
 		39DF4E0A1B38E44400B5E5A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DF4E091B38E44400B5E5A5 /* AppDelegate.swift */; };
 		39DF4E0D1B38E44400B5E5A5 /* here_now_b.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 39DF4E0B1B38E44400B5E5A5 /* here_now_b.xcdatamodeld */; };
 		39DF4E0F1B38E44400B5E5A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DF4E0E1B38E44400B5E5A5 /* ViewController.swift */; };
@@ -27,6 +41,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		397807AB1B38F95700FB0584 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		397807AD1B38F95D00FB0584 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		397807AF1B38F96600FB0584 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		397807B11B38F97300FB0584 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		397807B31B38F97F00FB0584 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		39CFFF471B3B56F200851858 /* BebasNeue Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BebasNeue Light.ttf"; path = "../../../../Downloads/bebas/TTF's/BebasNeue Light.ttf"; sourceTree = "<group>"; };
+		39DA6ADD1B38F82900235886 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = ../Parse.framework; sourceTree = "<group>"; };
+		39DA6ADF1B38F83C00235886 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		39DA6AE11B38F8DE00235886 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		39DA6AE31B38F8E800235886 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		39DA6AE51B38F8F700235886 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		39DA6AE71B38F8FD00235886 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		39DA6AE91B38F90900235886 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		39DA6AEB1B38F91200235886 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		39DF4E041B38E44400B5E5A5 /* here.now.b.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = here.now.b.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39DF4E081B38E44400B5E5A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39DF4E091B38E44400B5E5A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +73,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				397807B41B38F97F00FB0584 /* libsqlite3.dylib in Frameworks */,
+				397807B21B38F97300FB0584 /* libz.dylib in Frameworks */,
+				397807B01B38F96600FB0584 /* SystemConfiguration.framework in Frameworks */,
+				397807AE1B38F95D00FB0584 /* StoreKit.framework in Frameworks */,
+				397807AC1B38F95700FB0584 /* Security.framework in Frameworks */,
+				39DA6AEC1B38F91200235886 /* QuartzCore.framework in Frameworks */,
+				39DA6AEA1B38F90900235886 /* MobileCoreServices.framework in Frameworks */,
+				39DA6AE81B38F8FD00235886 /* CoreLocation.framework in Frameworks */,
+				39DA6AE61B38F8F700235886 /* CoreGraphics.framework in Frameworks */,
+				39DA6AE41B38F8E800235886 /* CFNetwork.framework in Frameworks */,
+				39DA6AE21B38F8DE00235886 /* AudioToolbox.framework in Frameworks */,
+				39DA6ADE1B38F82900235886 /* Parse.framework in Frameworks */,
+				39DA6AE01B38F83C00235886 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +126,19 @@
 				39DF4E131B38E44400B5E5A5 /* Images.xcassets */,
 				39DF4E151B38E44400B5E5A5 /* LaunchScreen.xib */,
 				39DF4E0B1B38E44400B5E5A5 /* here_now_b.xcdatamodeld */,
+				397807B31B38F97F00FB0584 /* libsqlite3.dylib */,
+				397807B11B38F97300FB0584 /* libz.dylib */,
+				39DA6ADF1B38F83C00235886 /* Bolts.framework */,
+				39DA6ADD1B38F82900235886 /* Parse.framework */,
+				397807AF1B38F96600FB0584 /* SystemConfiguration.framework */,
+				397807AD1B38F95D00FB0584 /* StoreKit.framework */,
+				397807AB1B38F95700FB0584 /* Security.framework */,
+				39DA6AEB1B38F91200235886 /* QuartzCore.framework */,
+				39DA6AE91B38F90900235886 /* MobileCoreServices.framework */,
+				39DA6AE71B38F8FD00235886 /* CoreLocation.framework */,
+				39DA6AE51B38F8F700235886 /* CoreGraphics.framework */,
+				39DA6AE31B38F8E800235886 /* CFNetwork.framework */,
+				39DA6AE11B38F8DE00235886 /* AudioToolbox.framework */,
 				39DF4E071B38E44400B5E5A5 /* Supporting Files */,
 			);
 			path = here.now.b;
@@ -93,6 +147,7 @@
 		39DF4E071B38E44400B5E5A5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				39CFFF471B3B56F200851858 /* BebasNeue Light.ttf */,
 				39DF4E081B38E44400B5E5A5 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -195,6 +250,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39D66E311B3B85EF00475F1E /* BebasNeue Light.ttf in Resources */,
 				39DF4E121B38E44400B5E5A5 /* Main.storyboard in Resources */,
 				39DF4E171B38E44400B5E5A5 /* LaunchScreen.xib in Resources */,
 				39DF4E141B38E44400B5E5A5 /* Images.xcassets in Resources */,
@@ -346,9 +402,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/here.now.b",
+				);
 				INFOPLIST_FILE = here.now.b/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "02ce44a0-714b-40de-9ca3-f53e16f17094";
 			};
 			name = Debug;
 		};
@@ -356,9 +420,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/here.now.b",
+				);
 				INFOPLIST_FILE = here.now.b/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "02ce44a0-714b-40de-9ca3-f53e16f17094";
 			};
 			name = Release;
 		};
@@ -415,6 +487,7 @@
 				39DF4E281B38E44400B5E5A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		39DF4E291B38E44400B5E5A5 /* Build configuration list for PBXNativeTarget "here.now.bTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +496,7 @@
 				39DF4E2B1B38E44400B5E5A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
