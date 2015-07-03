@@ -23,7 +23,7 @@ class ViewController: UIViewController {
                 self.text.alpha = 0
             })
             UIView.animateWithDuration(1, delay: 0, options: nil, animations: { () -> Void in
-                self.bottomConstraint.constant = 350
+                self.bottomConstraint.constant = 300
                 self.button.backgroundColor = UIColor(white: 1, alpha: 0.8)
                 self.view.layoutIfNeeded()
                 }) { (_) -> Void in
@@ -63,6 +63,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.bottomConstraint.constant = 300
         self.button.layer.cornerRadius = 6
         //
         //        var query = PFQuery(className: "User")

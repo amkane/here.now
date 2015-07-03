@@ -31,7 +31,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="177-b4-Ztx">
-                                        <rect key="frame" x="222" y="206" width="157" height="44"/>
+                                        <rect key="frame" x="222" y="256" width="157" height="44"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="157" id="6i7-Wm-Bq8"/>
@@ -47,9 +47,7 @@
                                             <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="khF-6N-dAx"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="YOU WILL START RECEIVING NOTIFICATIONS AT RANDOM INTERVALS
-
-CLICK THE BUTTON AGAIN TO DISABLE RECEIVING NOTIFICATIONS" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FmH-jt-Mcd">
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="YOU WILL START RECEIVING NOTIFICATIONS AT RANDOM INTERVALS  CLICK THE BUTTON AGAIN TO DISABLE RECEIVING NOTIFICATIONS" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FmH-jt-Mcd">
                                         <rect key="frame" x="174" y="243" width="253" height="113"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="253" id="PCP-O0-gyc"/>
@@ -62,10 +60,10 @@ CLICK THE BUTTON AGAIN TO DISABLE RECEIVING NOTIFICATIONS" textAlignment="center
                                 </subviews>
                                 <color key="backgroundColor" red="0.1000010445" green="0.068316550860000005" blue="0.2491319444" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="177-b4-Ztx" secondAttribute="bottom" constant="350" id="CX1-kV-AfN"/>
-                                    <constraint firstAttribute="centerY" secondItem="FmH-jt-Mcd" secondAttribute="centerY" constant="0.5" id="Hux-Aw-6Uh"/>
-                                    <constraint firstAttribute="centerX" secondItem="FmH-jt-Mcd" secondAttribute="centerX" constant="-0.5" id="au6-qs-BNv"/>
+                                    <constraint firstAttribute="bottom" secondItem="177-b4-Ztx" secondAttribute="bottom" constant="300" id="CX1-kV-AfN"/>
                                     <constraint firstAttribute="centerX" secondItem="177-b4-Ztx" secondAttribute="centerX" constant="-0.5" id="o0t-N4-nxL"/>
+                                    <constraint firstAttribute="centerX" secondItem="FmH-jt-Mcd" secondAttribute="centerX" constant="-0.5" id="r33-TM-8yE"/>
+                                    <constraint firstAttribute="centerY" secondItem="FmH-jt-Mcd" secondAttribute="centerY" constant="0.5" id="rbh-fk-cKc"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -73,10 +71,14 @@ CLICK THE BUTTON AGAIN TO DISABLE RECEIVING NOTIFICATIONS" textAlignment="center
                         <constraints>
                             <constraint firstItem="LhV-Qz-oHQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="0FK-Zf-lY6"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="LhV-Qz-oHQ" secondAttribute="bottom" id="1TH-pC-r2r"/>
+                            <constraint firstItem="LhV-Qz-oHQ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="2M8-5F-3EY"/>
+                            <constraint firstItem="LhV-Qz-oHQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="4mG-F2-ywk"/>
                             <constraint firstAttribute="bottomMargin" secondItem="RrR-Pi-d2x" secondAttribute="bottom" constant="-7" id="4qV-7F-KsJ"/>
                             <constraint firstAttribute="trailing" secondItem="LhV-Qz-oHQ" secondAttribute="trailing" id="ABH-Zs-Lm3"/>
                             <constraint firstItem="RrR-Pi-d2x" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-22" id="BWI-ke-eoa"/>
+                            <constraint firstAttribute="trailing" secondItem="LhV-Qz-oHQ" secondAttribute="trailing" id="Bfs-gk-mKL"/>
                             <constraint firstItem="RrR-Pi-d2x" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-9" id="DC4-AU-kIc"/>
+                            <constraint firstAttribute="bottom" secondItem="LhV-Qz-oHQ" secondAttribute="bottom" id="YlC-xs-5Bd"/>
                             <constraint firstItem="LhV-Qz-oHQ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="fc8-8z-xJK"/>
                             <constraint firstAttribute="trailingMargin" secondItem="RrR-Pi-d2x" secondAttribute="trailing" constant="-16" id="kKq-U6-fOx"/>
                         </constraints>
@@ -90,10 +92,10 @@ CLICK THE BUTTON AGAIN TO DISABLE RECEIVING NOTIFICATIONS" textAlignment="center
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="305" y="383"/>
+            <point key="canvasLocation" x="305" y="399"/>
         </scene>
     </scenes>
     <resources>
-        <image name="image2" width="950" height="650"/>
+        <image name="image2.jpg" width="950" height="650"/>
     </resources>
 </document>
